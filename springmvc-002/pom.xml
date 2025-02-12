@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.wen</groupId>
+  <artifactId>springmvc-002</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>springmvc-002</name>
+  <packaging>war</packaging>
+
+  <properties>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+      <junit.version>5.7.1</junit.version>
+      </properties>
+
+    <dependencies>
+        <!-- Spring Web MVC -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.3.23</version> <!-- 使用适合 Tomcat 9 的 Spring 5.x 版本 -->
+        </dependency>
+
+        <!-- Servlet API (for Tomcat 9) -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version> <!-- 使用与 Tomcat 9 兼容的 Servlet API -->
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- JSP API (for Tomcat 9) -->
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <version>2.3.3</version> <!-- 使用与 Tomcat 9 兼容的 JSP API -->
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Logback for logging -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.thymeleaf</groupId>
+            <artifactId>thymeleaf-spring5</artifactId>
+            <version>3.0.15.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.el</groupId>
+            <artifactId>javax.el-api</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+    </dependencies>
+
+
+
+    <build>
+      <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.1</version>
+      </plugin>
+      </plugins>
+  </build>
+</project>
