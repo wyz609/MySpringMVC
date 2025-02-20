@@ -1,4 +1,4 @@
-package org.myspringmvc.web.bind.servlet;
+package org.myspringmvc.web.servlet;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.servlet.HandlerExecutionChain;

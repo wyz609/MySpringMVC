@@ -1,8 +1,8 @@
-package org.myspringmvc.web.bind.servlet.view;
+package org.myspringmvc.web.servlet.view;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.myspringmvc.web.bind.servlet.View;
+import org.myspringmvc.web.servlet.View;
 
 import java.util.Map;
 

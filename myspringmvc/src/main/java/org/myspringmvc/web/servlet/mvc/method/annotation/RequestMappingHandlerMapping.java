@@ -1,7 +1,7 @@
-package org.myspringmvc.web.bind.servlet.mvc.method.annotation;
+package org.myspringmvc.web.servlet.mvc.method.annotation;
 
 import jakarta.servlet.http.HttpServletRequest;
-import org.myspringmvc.web.bind.servlet.HandlerMapping;
+import org.myspringmvc.web.servlet.HandlerMapping;
 import org.springframework.web.servlet.HandlerExecutionChain;
 
 /**

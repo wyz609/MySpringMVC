@@ -1,8 +1,8 @@
-package org.myspringmvc.web.bind.servlet.mvc.method.annotation;
+package org.myspringmvc.web.servlet.mvc.method.annotation;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.myspringmvc.web.bind.servlet.HandlerAdapter;
+import org.myspringmvc.web.servlet.HandlerAdapter;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
