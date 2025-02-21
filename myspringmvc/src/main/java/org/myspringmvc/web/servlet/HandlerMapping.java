@@ -1,7 +1,7 @@
 package org.myspringmvc.web.servlet;
 
 import jakarta.servlet.http.HttpServletRequest;
-import org.springframework.web.servlet.HandlerExecutionChain;
+import org.myspringmvc.web.servlet.HandlerExecutionChain;
 
 /**
  * Class name: HandlerMapping

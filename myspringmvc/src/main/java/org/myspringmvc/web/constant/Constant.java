@@ -14,5 +14,14 @@ public class Constant {
     public static final String CLASSPATH = "classpath";
 
     public static final String WEB_APPLICATION_CONTEXT = "webApplicationContext";
+    public static final String VIEW_RESOLVER = "viewResolver";
+
+    public static final String INTERCEPTORS = "interceptors";
+
+    public static final String PACKAGE_AUTO_CREATE = "org.myspringmvc.web.servlet.mvc.method.annotation";
+
+    public static final String HANDLER_MAPPING = "handlerMapping";
+
+    public static final String HANDLER_ADAPTER = "handlerAdapter";
 }
 

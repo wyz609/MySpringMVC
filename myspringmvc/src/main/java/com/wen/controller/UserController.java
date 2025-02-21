@@ -2,7 +2,8 @@ package com.wen.controller;
 
 import org.myspringmvc.stereotype.Controller;
 import org.myspringmvc.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.myspringmvc.web.bind.annotation.RequestMethod;
+
 
 /**
  * Class name: UserController

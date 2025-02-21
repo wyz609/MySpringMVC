@@ -3,7 +3,7 @@ package org.myspringmvc.web.servlet.mvc.method.annotation;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.myspringmvc.web.servlet.HandlerAdapter;
-import org.springframework.web.servlet.ModelAndView;
+import org.myspringmvc.web.servlet.ModelAndView;
 
 /**
  * Class name: RequestMappingHandlerAdapter
@@ -17,7 +17,12 @@ import org.springframework.web.servlet.ModelAndView;
 public class RequestMappingHandlerAdapter implements HandlerAdapter {
     @Override
     public ModelAndView handle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        return null;
+        ModelAndView modelAndView = new ModelAndView();
+        //让handler方法返回一个固定的ModelAndView方法，后期详细编写handle方法
+        modelAndView.setView("index");
+        modelAndView.setModel(null);
+
+        return modelAndView;
     }
 }
 

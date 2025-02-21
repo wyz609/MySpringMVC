@@ -3,7 +3,7 @@ package com.wen.interceptors;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.myspringmvc.web.servlet.HandlerInterceptor;
-import org.springframework.web.servlet.ModelAndView;
+import org.myspringmvc.web.servlet.ModelAndView;
 
 /**
  * Class name: interceptor2

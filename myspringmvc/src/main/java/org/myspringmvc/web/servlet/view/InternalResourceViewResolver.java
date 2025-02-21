@@ -1,7 +1,7 @@
 package org.myspringmvc.web.servlet.view;
 
 import org.myspringmvc.web.servlet.ViewResolver;
-import org.springframework.web.servlet.View;
+import org.myspringmvc.web.servlet.View;
 
 import java.util.Locale;
 
@@ -37,7 +37,7 @@ public class InternalResourceViewResolver implements ViewResolver {
 
     @Override
     public View resolveViewName(String viewName, Locale locale) throws Exception {
-        return null;
+        return new InternalResourceView("text/html;charset=UTF-8",prefix + viewName + suffix);
     }
 }
 

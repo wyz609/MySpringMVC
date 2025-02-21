@@ -1,6 +1,6 @@
 package org.myspringmvc.web.servlet;
 
-import org.springframework.web.servlet.View;
+import org.myspringmvc.web.servlet.View;
 
 import java.util.Locale;
 

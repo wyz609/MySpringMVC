@@ -11,15 +11,15 @@ import org.myspringmvc.ui.ModelMap;
  * @Author: jay
  * @Version: 1.0
  */
-public class ModerAndView {
+public class ModelAndView {
 
     private Object view;
     private ModelMap  model;
 
-    public ModerAndView() {
+    public ModelAndView() {
     }
 
-    public ModerAndView(Object view, ModelMap model) {
+    public ModelAndView(Object view, ModelMap model) {
         this.view = view;
         this.model = model;
     }
